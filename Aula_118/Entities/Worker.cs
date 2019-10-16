@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Aula_118.Entities.Enum;
 
 namespace Aula_118.Entities
@@ -8,7 +9,22 @@ namespace Aula_118.Entities
         public string Name { get; set; }
         public WorkerLevel WorkerLvl { get; set; }
         public double baseSalary { get; set; }
+        List<HourContract> contractList;
+        public Department Depart;
 
-        public void AddContract()
+        public void AddContract(HourContract contract)
+        {
+
+        }
+
+        public void RemoveContract(HourContract contract)
+        {
+
+        }
+
+        public double Income(int year, int month)
+        {
+            return 0;
+        }
     }
 }
