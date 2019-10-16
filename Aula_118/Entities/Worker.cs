@@ -9,7 +9,7 @@ namespace Aula_118.Entities
         public string Name { get; set; }
         public WorkerLevel WorkerLvl { get; set; }
         public double baseSalary { get; set; }
-        List<HourContract> contractList;
+        public List<HourContract> contractList { get; set }
         public Department Depart;
 
         public void AddContract(HourContract contract)
